@@ -1,8 +1,8 @@
 # 🏡This's docsify thymeleaf
 
- 这是一个 Docsify 模板，你可以直接 Fork [docsify-thy](https://github.com/aishangxuejie/docsify-thy)到自己的仓库，然后直接部署在 GitHub Pages
+🌟这是一个 Docsify 模板，你可以直接 Fork [docsify-thy](https://github.com/aishangxuejie/docsify-thy)到自己的仓库，然后直接部署在 GitHub Pages
 
-## 已配置
+## 插件
 
 - [x] 定制导航栏
 - [x] 配置多页文档
@@ -26,8 +26,10 @@ GitHub Pages 支持从三个地方读取文件
 - master 分支
 - gh-pages 分支
 
-我们推荐直接将文档放在 `docs/` 目录下，在设置页面开启 **GitHub Pages** 功能并选择 `master branch /docs folder` 选项。
+在设置页面开启 **GitHub Pages** 功能并选择 `master branch /(root) folder` 选项。
 
-![github pages](./assets/deploy-github-pages.png)
+![image-20241121174055961](./assets/image-20241121174055961.png)
 
-可以将文档放在根目录下，然后选择 **master 分支** 作为文档目录。你需要在部署位置下放一个 `.nojekyll` 文件（比如 `/docs` 目录或者 gh-pages 分支）
+## 预览
+
+模板预览：https://docsify-thy.99kids.icu/
