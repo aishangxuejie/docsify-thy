@@ -1,6 +1,6 @@
 # 🏡This's docsify thymeleaf
 
-​	这是一个 Docsify 模板，你可以直接Fork到自己的仓库，然后直接[部署在 GitHub Pages](https://docsify.js.org/#/zh-cn/deploy)。
+​ 这是一个 Docsify 模板，你可以直接 Fork 到自己的仓库，然后直接[部署在 GitHub Pages](https://docsify.js.org/#/zh-cn/deploy)。
 
 ## 已配置
 
@@ -13,8 +13,6 @@
 - [x] 字数统计
 - [x] 图片缩放
 - [x] 自定义广告位
-
-
 
 ## 部署
 
