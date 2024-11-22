@@ -1,8 +1,12 @@
-# 🏡This's docsify thymeleaf
+# 🏡This's a docsify thymeleaf
 
- 这是一个 Docsify 模板，你可以直接 Fork [docsify-thy](https://github.com/aishangxuejie/docsify-thy)到自己的仓库，然后直接部署在 GitHub Pages
+🌟这是一个 Docsify 模板，你可以使用此模板 [docsify-thy](https://github.com/aishangxuejie/docsify-thy)创建自己新的库，或者Fork到自己的库，然后直接部署在 GitHub Pages。
 
-## 已配置
+## 预览
+
+- 模板预览：https://docsify-thy.99kids.icu/
+
+## 插件
 
 - [x] 定制导航栏
 - [x] 配置多页文档
@@ -16,9 +20,19 @@
 
 ## 部署
 
-和 GitBook 生成的文档一样，我们可以直接把文档网站部署到 GitHub Pages 或者 VPS 上。
+🌟仅需3步，如此简单！
 
-### GitHub Pages
+> 和 GitBook 生成的文档一样，我们可以直接把文档网站部署到 GitHub Pages 或者 VPS 上。
+
+### 1、使用模板（或者Fork）
+
+![image-20241122110225434](./assets/image-20241122110225434.png)
+
+### 2、创建新的名
+
+![image-20241122111202393](./assets/image-20241122111202393.png)
+
+### 3、发布GitHub Pages
 
 GitHub Pages 支持从三个地方读取文件
 
@@ -26,8 +40,7 @@ GitHub Pages 支持从三个地方读取文件
 - master 分支
 - gh-pages 分支
 
-我们推荐直接将文档放在 `docs/` 目录下，在设置页面开启 **GitHub Pages** 功能并选择 `master branch /docs folder` 选项。
+在设置页面开启 **GitHub Pages** 功能并选择 `master branch /(root) folder` 选项。
 
-![github pages](./assets/deploy-github-pages.png)
+![image-20241121174055961](./assets/image-20241121174055961.png)
 
-可以将文档放在根目录下，然后选择 **master 分支** 作为文档目录。你需要在部署位置下放一个 `.nojekyll` 文件（比如 `/docs` 目录或者 gh-pages 分支）
