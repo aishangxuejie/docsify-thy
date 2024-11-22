@@ -2,14 +2,9 @@
 
 🌟这是一个 Docsify 模板，你可以使用此模板 [docsify-thy](https://github.com/aishangxuejie/docsify-thy)创建自己新的库，或者Fork到自己的库，然后直接部署在 GitHub Pages。
 
-🌟
-
-![image-20241122110225434](./assets/image-20241122110225434.png)
-
 ## 预览
 
 - 模板预览：https://docsify-thy.99kids.icu/
-- 模板预览：
 
 ## 插件
 
@@ -25,9 +20,19 @@
 
 ## 部署
 
-和 GitBook 生成的文档一样，我们可以直接把文档网站部署到 GitHub Pages 或者 VPS 上。
+🌟仅需3步，如此简单！
 
-### GitHub Pages
+> 和 GitBook 生成的文档一样，我们可以直接把文档网站部署到 GitHub Pages 或者 VPS 上。
+
+### 1、使用模板（或者Fork）
+
+![image-20241122110225434](./assets/image-20241122110225434.png)
+
+### 2、创建新的名
+
+![image-20241122111202393](./assets/image-20241122111202393.png)
+
+### 3、发布GitHub Pages
 
 GitHub Pages 支持从三个地方读取文件
 
