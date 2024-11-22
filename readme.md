@@ -2,6 +2,8 @@
 
 🌟这是一个 Docsify 模板，你可以使用此模板 [docsify-thy](https://github.com/aishangxuejie/docsify-thy)创建自己新的库，或者Fork到自己的库，然后直接部署在 GitHub Pages。
 
+🌟模板设置了2个文件夹，并配置不同的首页作为不同空间，你可以用来写不同类型的文档博客。
+
 ## 预览
 
 - 模板预览：https://docsify-thy.99kids.icu/
