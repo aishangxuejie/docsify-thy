@@ -1,6 +1,15 @@
-# 🏡This's docsify thymeleaf
+# 🏡This's a docsify thymeleaf
 
-🌟这是一个 Docsify 模板，你可以直接 Fork [docsify-thy](https://github.com/aishangxuejie/docsify-thy)到自己的仓库，然后直接部署在 GitHub Pages
+🌟这是一个 Docsify 模板，你可以使用此模板 [docsify-thy](https://github.com/aishangxuejie/docsify-thy)创建自己新的库，或者Fork到自己的库，然后直接部署在 GitHub Pages。
+
+🌟
+
+![image-20241122110225434](./assets/image-20241122110225434.png)
+
+## 预览
+
+- 模板预览：https://docsify-thy.99kids.icu/
+- 模板预览：
 
 ## 插件
 
@@ -30,6 +39,3 @@ GitHub Pages 支持从三个地方读取文件
 
 ![image-20241121174055961](./assets/image-20241121174055961.png)
 
-## 预览
-
-模板预览：https://docsify-thy.99kids.icu/
