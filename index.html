@@ -14,21 +14,22 @@
     name="description">
   <meta property="og:description"
     content="前言 关于动态文档生成工具有很多如：Docsify、 VuePress、Hugo 、Hexo这些都是一些非常优秀的文档生成工具，主要介绍如何快速使用Docsify搭建一个快捷、轻量级的个人&amp;amp;团队文档。 什么是Docsify？ 一个神奇的文档网站生成器。docsify-thy 可以快速帮你">
+
+  <!-- themes : dark.css buble.css dolphin.css pure.css -->
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
-  <link href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.css" rel="stylesheet">
+  <!-- <link href="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/themes/vue.css" rel="stylesheet"> -->
 </head>
 
 <body>
-  <div id="app"></div>
+  <div id="app">
+  </div>
   <!-- <script>
     window.$docsify = {
       name: '',
       repo: 'ssh://git@*.git'
     }
   </script> -->
-  <!-- Docsify v4 -->
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.js"></script>
-
   <script>
     window.$docsify = {
       el: '#app',
@@ -161,17 +162,30 @@
     }
 
   </script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/search.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/emoji.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/external-script.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/plugins/zoom-image.min.js"></script>
-  <script src="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-actionscript.min.js"></script>
+  <!-- Docsify v4 -->
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify@4"></script> -->
+  <!-- <script src="https://cdn.bootcdn.net/ajax/libs/docsify/4.13.1/docsify.js"></script> -->
+  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!-- 插件 -->
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- w -->
+  <script src="//unpkg.com/docsify/lib/plugins/external-script.min.js"></script>
+  <!-- 分页插件 -->
   <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- 代码高亮 -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/components/prism-actionscript.min.js"></script>
+  <!-- 自定义广告 -->
   <script src="https://unpkg.com/docsify-ads@1.0.4/dist/docsify-ads.min.js"></script>
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
-  <!-- Latest (not recommended for production) -->
-  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!-- 代码复制 -->
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+  <!-- 折叠侧边栏 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+  <script src="./lib/docsify-ads-footer.js"></script>
 
 
   <!-- 离线模式 -->
