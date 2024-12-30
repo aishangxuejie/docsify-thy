@@ -46,9 +46,10 @@
       loadSidebar: true,
       autoHeader: true,
       alias: { //自定义侧边栏
+        // 配置alias字段后，所有页面都会显示项目根目录/_sidebar.md文件的配置作为侧边栏，子目录的_sidebar.md文件会失效。
         '/_sidebar.md': '/_sidebar.md',
-        '/zh-cn/home1/.*/_sidebar.md': '/_sidebar.md',
-        '/zh-cn/home2/.*/_sidebar.md': '/_sidebar.md',
+        '/zh-cn/home1/.*/_sidebar.md': '/zh-cn/home1/_sidebar.md',
+        '/zh-cn/home2/.*/_sidebar.md': '/zh-cn/home2/_sidebar.md',
       },
       subMaxLevel: 3,
       sidebarDisplayLevel: 1, // set sidebar display level
